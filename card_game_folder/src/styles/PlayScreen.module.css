@@ -1,0 +1,73 @@
+
+.gameContainer {
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	z-index: 2;
+	letter-spacing: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 30px;
+	height: max-content;
+}
+
+.main {
+	z-index: 2;
+	margin-top: 35px;
+}
+
+.headerText {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.red {
+	color: rgb(215, 0, 0);
+	font-size: 35px;
+	margin-left: 5px;
+}
+
+.white {
+	color: white;
+	font-size: 35px;
+}
+
+.scoreContainer {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 3PX;
+}
+
+.flex {
+	display: flex;
+	gap: 40px;
+}
+
+.trophy {
+	width: 30px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 3px;
+	margin-top: 2px;
+}
+
+.bestScore {
+	display: flex;
+}
+
+.countContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	font-weight: 300;
+}
