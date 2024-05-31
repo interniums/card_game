@@ -22,7 +22,7 @@ export default function StartScreen(props) {
 					<div className={styles.footer}>
 						Made by 
 						<div className={styles.anchor}>
-							<a className={styles.a} href="">
+							<a className={styles.a} href="https://github.com/interniums">
 								INTERNIUM 
 							</a>
 							<img className={styles.logo} src={github_logo} alt="" />
