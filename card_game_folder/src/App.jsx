@@ -13,12 +13,12 @@ function App() {
 		setStart(false)
 	}
 
-	console.log(difficulty)
+	// console.log(difficulty)
   return (
 		<>
 		<Background start={start} />
 			{
-				start == true ? <StartScreen difficulty={difficulty} changeDifficulty={changeDifficulty} /> : <PlayScreen difficulty={difficulty}/>
+				start == true ? <StartScreen difficulty={difficulty} changeDifficulty={changeDifficulty} /> : <PlayScreen setStart={setStart} difficulty={difficulty}/>
 			}
 		</>
   )
